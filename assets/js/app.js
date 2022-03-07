@@ -7,8 +7,8 @@ const btnClose = document.querySelector('.icon-close')
 const handlerEvents = () => {
     
     menuList.onclick = (e) =>{
-        console.log(e);
-        document.querySelector(`#${e.target.getAttribute('data-id')}`).scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+        console.log()
+        document.querySelector(`#${e.target.closest(".header-link").getAttribute('data-id')}`).scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
     }
     // Show hide menu Mobile
     btnMenu.onclick = () =>{
