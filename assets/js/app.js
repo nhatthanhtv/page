@@ -55,7 +55,7 @@ window.addEventListener('load', () =>{
 new Swiper(".mySwiper", {
     slidesPerView: 2,
     spaceBetween: 20,
-    slidesPerGroup: 1,
+    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     
