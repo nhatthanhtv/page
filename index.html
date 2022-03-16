@@ -1,203 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Công ty</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-    <div id="app">
-        <header id="header">
-            <div class="grid wide">
-                <div class="header-container">
-                    <a href="" class="header-logo">
-                        <img src="./assets/img/logo.png" alt="Logo">
-                    </a>
-                        <div class="header-menu">
-                            <ul class="header-list ">
-                                <li class=" header-item header-close-menu active">
-                                    <i class="ri-close-line icon-close"></i>
-                                </li>
-                                <li class="header-item">
-                                    <div  class="header-link" data-id="home">
-                                        <span>
+<div id="app">
+    <header id="header">
+        <div class="grid wide">
+            <div class="header-container">
+                <a href="" class="header-logo">
+                    <img src="./assets/img/logo.png" alt="Logo">
+                </a>
+                <div class="header-menu">
+                    <ul class="header-list ">
+                        <li class=" header-item header-close-menu active">
+                            <i class="ri-close-line icon-close"></i>
+                        </li>
+                        <li class="header-item">
+                            <div class="header-link" data-id="home">
+                                <span>
 
-                                            Trang chủ
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="header-item">
-                                    <div  class="header-link" data-id="info-cty">
-                                        <span>
+                                    Trang chủ
+                                </span>
+                            </div>
+                        </li>
+                        <li class="header-item">
+                            <div class="header-link" data-id="info-cty">
+                                <span>
 
-                                            Giới thiệu
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="header-item">
-                                    <div  class="header-link" data-id="concat">
-                                        <span>
+                                    Giới thiệu
+                                </span>
+                            </div>
+                        </li>
+                        <li class="header-item">
+                            <div class="header-link" data-id="concat">
+                                <span>
 
-                                            Liên hệ 
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="header-item">
-                                    <div  class="header-link" data-id="address">
-                                        <span>
+                                    Liên hệ
+                                </span>
+                            </div>
+                        </li>
+                        <li class="header-item">
+                            <div class="header-link" data-id="address">
+                                <span>
 
-                                            Địa chỉ
-                                        </span>
+                                    Địa chỉ
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-mobile">
+                    <i class="ri-menu-line"></i>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section id="home" class="banner">
+        <div class="banner-item">
+            <div class="bg-over"></div>
+            <div class="banner-content">
+                <h3 class="banner-title">
+                    Tên công ty Ricardo
+                </h3>
+            </div>
+        </div>
+    </section>
+    <div class="container-app grid wide ">
+        <section class="info-cty" id="info-cty" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="title-page">Giới thiệu</h2>
+            <p class="info-description">
+                Ricardo sinh ra ở London, là con thứ ba trong số bảy người con của một gia đình người Do Thái nhập cư từ
+                Hà Lan đến Đế quốc Anh trước khi ông được sinh ra. Khi 14 tuổi, sau một khóa học ngắn ở Hà Lan, Ricardo
+                đã tham gia công việc cùng với cha của ông ở Sở giao dịch chứng khoán London, nơi ông bắt đầu học về các
+                công việc tài chính. Đây là nền tảng cho các thành công sau đó của ông trong thị trường chứng khoán và
+                kinh doanh bất động sản.
+            </p>
+        </section>
+        <div class="photo-product-cty">
+            <h2 data-aos="fade-up" data-aos-duration="1000" class="title-page">Hình ảnh căn hộ</h2>
+            <div class="photo-product-img">
+                <img src="./assets/img/bg.jfif" alt="căn hộ cao cấp" class="product-img">
+                <div class="photo-product-img-overlay">
+                    <h3>
+                        Căn hộ tại: abc xyz
+                    </h3>
+                </div>
+                <div class="show__slider">
+                    <i class="ri-close-line close__slider"></i>
+                    <div class="slider__content">
+                        <div class="slider-list">
+                            <div class="swiper mySwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img1.jpg" alt="">
+                                        </div>
                                     </div>
-                                </li>
-                            </ul>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img5.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img6.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img7.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img8.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img9.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img10.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img11.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-slider">
+                                            <img src="./assets/img/img12.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
-                        <div class="menu-mobile">
-                            <i class="ri-menu-line"></i>
-                        </div>
-                    
+                    </div>
                 </div>
             </div>
-        </header>
-        <section id="home" class="banner">
-            <div class="banner-item">
-                <div class="bg-over"></div>
-                <div class="banner-content">
-                    <h3 class="banner-title">
-                        Tên công ty Ricardo
-                    </h3>
+            <div class="product-slider" data-aos="fade-up" data-aos-duration="1000">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="slider-item">
+                                <img src="./assets/img/img3.jpg" alt="">
+                                <div class="item-bg">
+                                    <h3 class="product-description">Căn hộ Ricado</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-item">
+                                <img src="./assets/img/img4.jpg" alt="">
+                                <div class="item-bg">
+                                    <h3 class="product-description">Căn hộ Ricado</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-item">
+                                <img src="./assets/img/img5.jpg" alt="">
+                                <div class="item-bg">
+                                    <h3 class="product-description">Căn hộ Ricado</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-item">
+                                <img src="./assets/img/img6.jpg" alt="">
+                                <div class="item-bg">
+                                    <h3 class="product-description">Căn hộ Ricado</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-item">
+                                <img src="./assets/img/img7.jpg" alt="">
+                                <div class="item-bg">
+                                    <h3 class="product-description">Căn hộ Ricado</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-item">
+                                <img src="./assets/img/img10.jpg" alt="">
+                                <div class="item-bg">
+                                    <h3 class="product-description">Căn hộ Ricado</h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <section class="concat" id="concat" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="title-page">Liên hệ</h2>
+            <div class="bg-concat">
+                <div class="over-bg">
+                    <div class="info-concat">
+                        <h4>Liên hệ tự vấn</h4>
+                        <p>035500xxx</p>
+                        <h3>Email: ricado@gmail.com</h3>
+                    </div>
                 </div>
             </div>
         </section>
-        <div class="container-app grid wide " >
-            <section class="info-cty" id="info-cty" data-aos="fade-up"
-            data-aos-duration="1000">
-                <h2 class="title-page">Giới thiệu</h2>
-                <p class="info-description">
-                    Ricardo sinh ra ở London, là con thứ ba trong số bảy người con của một gia đình người Do Thái nhập cư từ Hà Lan đến Đế quốc Anh trước khi ông được sinh ra. Khi 14 tuổi, sau một khóa học ngắn ở Hà Lan, Ricardo đã tham gia công việc cùng với cha của ông ở Sở giao dịch chứng khoán London, nơi ông bắt đầu học về các công việc tài chính. Đây là nền tảng cho các thành công sau đó của ông trong thị trường chứng khoán và kinh doanh bất động sản.
-                </p>
-            </section>
-            <div class="photo-product-cty"  >
-                <h2 data-aos="fade-up"
-                data-aos-duration="1000" class="title-page">Hình ảnh căn hộ</h2>
-                <img data-aos="fade-up"
-                data-aos-duration="1000" src="https://images.cenhomes.vn/2020/03/1585033149-can-ho-mau-cosmo-tay-ho.jpg" alt="căn hộ cao cấp" class="product-img">
-                <div class="product-slider"  data-aos="fade-up"
-                data-aos-duration="1000">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper" >
-                          
-                          <div class="swiper-slide" >
-                              <div class="slider-item">
-                                  <img src="https://sofagiare.org/wp-content/uploads/2020/11/sofa-goc-style.jpg" alt="">
-                                  <div class="item-bg">
-                                      <h3 class="product-description">Căn hộ Ricado</h3>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="swiper-slide">
-                              <div class="slider-item">
-                                  <img src="https://sofagiare.org/wp-content/uploads/2020/11/sofa-goc-style.jpg" alt="">
-                                  <div class="item-bg">
-                                      <h3 class="product-description">Căn hộ Ricado</h3>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="swiper-slide">
-                              <div class="slider-item">
-                                  <img src="https://sofagiare.org/wp-content/uploads/2020/11/sofa-goc-style.jpg" alt="">
-                                  <div class="item-bg">
-                                      <h3 class="product-description">Căn hộ Ricado</h3>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="swiper-slide">
-                              <div class="slider-item">
-                                  <img src="https://sofagiare.org/wp-content/uploads/2020/11/sofa-goc-style.jpg" alt="">
-                                  <div class="item-bg">
-                                      <h3 class="product-description">Căn hộ Ricado</h3>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="swiper-slide">
-                              <div class="slider-item">
-                                  <img class="slider-item-img" src="https://sofagiare.org/wp-content/uploads/2020/11/sofa-goc-style.jpg" alt="">
-                                  <div class="item-bg">
-                                      <h3 class="product-description">Căn hộ Ricado</h3>
-                                  </div>
-                              </div>
-                          </div>
-                          
-                          
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                      </div>
+        <section id="address" class="address" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="title-page">Địa chỉ công ty</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11903.834323954978!2d106.63916788929623!3d10.801652574206358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752951ce267169%3A0x2ddb72dbd8c4f7d3!2zVHJ1bmcgVMOibSBZIFThur8gUXXhuq1uIFTDom4gQsOsbmg!5e0!3m2!1svi!2s!4v1646570673893!5m2!1svi!2s"
+                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </div>
+    <div class="footer" id="footer" data-aos="zoom-in">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-6 c-12 m-6">
+                    <ul class="footer-list">
+                        <li>
+                            <p>
+                                <span>Location:</span> 199 Nguyen Hoang, District 2, HCMC, Vietnam
+                            </p>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <section class="concat" id="concat" data-aos="fade-up"
-            data-aos-duration="1000">
-                <h2 class="title-page">Liên hệ</h2>
-                <div class="bg-concat">
-                    <div class="over-bg">
-                        <div class="info-concat">
-                            <h4>Liên hệ tự vấn</h4>
-                            <p>035500xxx</p>
-                            <h3>Email: ricado@gmail.com</h3>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="address" class="address" data-aos="fade-up"
-            data-aos-duration="1000">
-                <h2 class="title-page">Địa chỉ công ty</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11903.834323954978!2d106.63916788929623!3d10.801652574206358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752951ce267169%3A0x2ddb72dbd8c4f7d3!2zVHJ1bmcgVMOibSBZIFThur8gUXXhuq1uIFTDom4gQsOsbmg!5e0!3m2!1svi!2s!4v1646570673893!5m2!1svi!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </section>
-        </div>
-        <div class="footer" id="footer" data-aos="zoom-in"
-        >
-            <div class="grid wide">
-                <div class="row">
-                    <div class="col l-6 c-12 m-6">
-                        <ul class="footer-list">
-                            <li>
-                               <p>
-                                   <span>Location:</span> 199 Nguyen Hoang, District 2, HCMC, Vietnam
-                               </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l-6 c-12 m-6">
-                        <ul class="footer-list">
-                            <li>
-                               <p>
-                                   <span>Hotline:</span> 092121xxxx
-                               </p>
-                            </li>
-                            <li>
-                               <p>
-                                   <span>Email:</span> ricardo@gmail.com
-                               </p>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="col l-6 c-12 m-6">
+                    <ul class="footer-list">
+                        <li>
+                            <p>
+                                <span>Hotline:</span> 092121xxxx
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span>Email:</span> ricardo@gmail.com
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
 <body>
 </body>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="./assets/js/app.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init();
+    AOS.init();
 </script>
+
 </html>
