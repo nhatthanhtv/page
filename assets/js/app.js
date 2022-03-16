@@ -70,7 +70,6 @@ window.addEventListener("load", () => {
         slidesPerView: 2,
         spaceBetween: 20,
         slidesPerGroup: 1,
-        loop: true,
         loopFillGroupWithBlank: true,
 
         pagination: {
@@ -86,7 +85,7 @@ window.addEventListener("load", () => {
                 spaceBetween: 40,
             },
             1024: {
-                slidesPerView: 3,
+                slidesPerView: 4,
                 spaceBetween: 20,
             },
         },
