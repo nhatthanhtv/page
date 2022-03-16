@@ -53,10 +53,9 @@ const handlerEvents = () => {
 window.addEventListener('load', () =>{
 // Custom Slider
 new Swiper(".mySwiper", {
-    slidesPerView: 4,
+    slidesPerView: 3,
     spaceBetween: 20,
-    slidesPerGroup: 4,
-    loop: true,
+    slidesPerGroup: 3,
     loopFillGroupWithBlank: true,
     
     pagination: {
